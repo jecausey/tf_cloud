@@ -10,7 +10,7 @@ provider "aws" {
 resource "aws_vpc" "jcvpc" {
     cidr_block = "192.168.0.0/24"
     tags = {
-        name = jhcvpc01
+        name = "jhcvpc01"
     }
 }
 
